@@ -7,6 +7,7 @@ Created on Fri Jun  03, 2022
 
 #importing libraries required
 import nltk
+nltk.download()
 from nltk.stem import LancasterStemmer
 stemmer= LancasterStemmer()
 import pickle
